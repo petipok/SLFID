@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name slfid)(type Legacy)(uri /home/petipok/Dev/SLFID/HW/slfid_ti_f28062/slfid.lib)(options "")(descr ""))
+  (lib (name slfid_power)(type Legacy)(uri /home/petipok/Dev/SLFID/HW/slfid_ti_f28062/slfid_power.lib)(options "")(descr ""))
+)

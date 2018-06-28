@@ -1,0 +1,52 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC589A
+D 8-Bit Serial or Parallel-Input/Serial-Output shift Register with 3-State output
+K shift register, parallel-in, serial-out
+F http://www.onsemi.com/pub/Collateral/MC74HC589A-D.PDF
+$ENDCMP
+#
+$CMP 74LVC2G07
+D 74LVC2G07 open-collector output buffer
+K buffer
+F http://www.ti.com/lit/ds/symlink/sn74lvc2g07.pdf
+$ENDCMP
+#
+$CMP INA826AID
+D INA826AID rail-to-rail instrumentation amplifier 1MHz, 3V to 36V supply, SOIC-8
+F http://www.ti.com/lit/ds/symlink/ina826.pdf
+$ENDCMP
+#
+$CMP LM6152
+D LM6152 75MHz bandwidth rail-to-rail operational amplifier, 2.7V to 24V supply voltage
+K opamp
+F http://www.ti.com/lit/ds/symlink/lm6152.pdf
+$ENDCMP
+#
+$CMP MCP1826T-3302E
+D MCP1826T 3.3V output LDO regulator, 2.3V to 6V input
+F http://www.farnell.com/datasheets/1769092.pdf?_ga=2.37028192.1302238087.1528717956-1351822774.1528717956
+$ENDCMP
+#
+$CMP TMS320F28062PNT
+D Texas Instruments TMS320F28062 microcontroller
+F http://www.ti.com/product/tms320f28062
+$ENDCMP
+#
+$CMP TPS54233D
+D TPS54233D step down DC/DC converter
+F http://www.ti.com/lit/ds/symlink/tps54233.pdf
+$ENDCMP
+#
+$CMP TS5A21366
+D TS5A21366 Analog switch, 2 channel SPST, 1.6V to 5.5V
+F http://www.ti.com/lit/ds/symlink/ts5a21366.pdf
+$ENDCMP
+#
+$CMP VCP3+S
+D VPC3+S Profibus DP-Slave communication chip
+K profibus, dp-slave, fieldbus
+F https://procentec.com/media/2221/vpc3pluss_user-manual.pdf
+$ENDCMP
+#
+#End Doc Library

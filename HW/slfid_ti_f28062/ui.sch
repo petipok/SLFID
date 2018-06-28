@@ -1,0 +1,1089 @@
+EESchema Schematic File Version 4
+LIBS:slfid_ti_f28062-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 6
+Title "SLFID_ti_f28062 board"
+Date "2018-06-13"
+Rev "A"
+Comp "Peter Pok"
+Comment1 "v1.0"
+Comment2 "User interface"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:USB_B_Micro J5
+U 1 1 5B21B3D1
+P 4400 4950
+F 0 "J5" H 4455 5417 50  0000 C CNN
+F 1 "USB_B_Micro" H 4455 5326 50  0000 C CNN
+F 2 "" H 4550 4900 50  0001 C CNN
+F 3 "~" H 4550 4900 50  0001 C CNN
+	1    4400 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J4
+U 1 1 5CE94A47
+P 4350 6450
+F 0 "J4" H 4323 6423 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 4323 6332 50  0000 R CNN
+F 2 "" H 4350 6450 50  0001 C CNN
+F 3 "~" H 4350 6450 50  0001 C CNN
+	1    4350 6450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5CEE9754
+P 1750 3000
+F 0 "SW3" H 1750 3285 50  0000 C CNN
+F 1 "TYCO_FSMSM" H 1750 3194 50  0000 C CNN
+F 2 "" H 1750 3200 50  0001 C CNN
+F 3 "" H 1750 3200 50  0001 C CNN
+	1    1750 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5CEE97FE
+P 1300 4000
+F 0 "SW1" H 1300 4285 50  0000 C CNN
+F 1 "TYCO_FSMSM" H 1300 4194 50  0000 C CNN
+F 2 "" H 1300 4200 50  0001 C CNN
+F 3 "" H 1300 4200 50  0001 C CNN
+	1    1300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5CEE9828
+P 1300 4400
+F 0 "SW2" H 1300 4685 50  0000 C CNN
+F 1 "TYCO_FSMSM" H 1300 4594 50  0000 C CNN
+F 2 "" H 1300 4600 50  0001 C CNN
+F 3 "" H 1300 4600 50  0001 C CNN
+	1    1300 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 5CEE986E
+P 1700 1300
+F 0 "D5" V 1738 1182 50  0000 R CNN
+F 1 "LED green" V 1647 1182 50  0000 R CNN
+F 2 "" H 1700 1300 50  0001 C CNN
+F 3 "~" H 1700 1300 50  0001 C CNN
+	1    1700 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D6
+U 1 1 5CEE9A05
+P 2250 1300
+F 0 "D6" V 2288 1182 50  0000 R CNN
+F 1 "LED yellow" V 2197 1182 50  0000 R CNN
+F 2 "" H 2250 1300 50  0001 C CNN
+F 3 "~" H 2250 1300 50  0001 C CNN
+	1    2250 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_DIP_x08 SW4
+U 1 1 5CF5D951
+P 4900 3250
+F 0 "SW4" H 4650 3750 50  0000 C CNN
+F 1 "SW_DIP_x08" H 4900 2800 50  0000 C CNN
+F 2 "" H 4900 3250 50  0001 C CNN
+F 3 "" H 4900 3250 50  0001 C CNN
+	1    4900 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L slfid:74HC589A U6
+U 1 1 5CF5E2F2
+P 6150 3050
+F 0 "U6" H 6150 4115 50  0000 C CNN
+F 1 "74HC589A" H 6150 4024 50  0000 C CNN
+F 2 "" H 6250 3150 50  0001 C CNN
+F 3 "" H 6250 3150 50  0001 C CNN
+	1    6150 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2850 5750 2850
+Wire Wire Line
+	5200 2950 5750 2950
+Wire Wire Line
+	5200 3050 5750 3050
+Wire Wire Line
+	5200 3150 5750 3150
+Wire Wire Line
+	5200 3250 5750 3250
+Wire Wire Line
+	5200 3350 5750 3350
+Wire Wire Line
+	5200 3450 5750 3450
+Wire Wire Line
+	5200 3550 5750 3550
+Wire Wire Line
+	4600 2850 4600 2950
+Connection ~ 4600 2950
+Wire Wire Line
+	4600 2950 4600 3050
+Connection ~ 4600 3050
+Wire Wire Line
+	4600 3050 4600 3150
+Connection ~ 4600 3150
+Wire Wire Line
+	4600 3150 4600 3250
+Connection ~ 4600 3250
+Wire Wire Line
+	4600 3250 4600 3350
+Connection ~ 4600 3350
+Wire Wire Line
+	4600 3350 4600 3450
+Connection ~ 4600 3450
+Wire Wire Line
+	4600 3450 4600 3550
+Connection ~ 4600 3550
+Wire Wire Line
+	4600 3550 4600 3700
+$Comp
+L power:GND #PWR039
+U 1 1 5CF5E7AF
+P 4600 3700
+F 0 "#PWR039" H 4600 3450 50  0001 C CNN
+F 1 "GND" H 4605 3527 50  0000 C CNN
+F 2 "" H 4600 3700 50  0001 C CNN
+F 3 "" H 4600 3700 50  0001 C CNN
+	1    4600 3700
+	1    0    0    -1  
+$EndComp
+Text Label 5250 2850 0    50   ~ 0
+DIP_1
+Text Label 5250 2950 0    50   ~ 0
+DIP_2
+Text Label 5250 3050 0    50   ~ 0
+DIP_3
+Text Label 5250 3150 0    50   ~ 0
+DIP_4
+Text Label 5250 3250 0    50   ~ 0
+DIP_5
+Text Label 5250 3350 0    50   ~ 0
+DIP_6
+Text Label 5250 3450 0    50   ~ 0
+DIP_7
+Text Label 5250 3550 0    50   ~ 0
+DIP_8
+Text HLabel 8150 750  2    50   Input ~ 0
+VCCD_3V3
+Text HLabel 8150 850  2    50   Input ~ 0
+VCC_5V
+Text HLabel 1050 4850 0    50   3State ~ 0
+SPI_MISO
+Text HLabel 1050 5000 0    50   Input ~ 0
+SPI_MOSI
+Text HLabel 1050 5150 0    50   Input ~ 0
+SPI_SCK
+Text HLabel 1050 5300 0    50   Input ~ 0
+DIP_SSEL
+Wire Wire Line
+	1050 4850 1650 4850
+Wire Wire Line
+	1050 5000 1650 5000
+Wire Wire Line
+	1050 5150 1650 5150
+Wire Wire Line
+	1050 5300 1650 5300
+Text Label 1200 4850 0    50   ~ 0
+SPI_MISO
+Text Label 1200 5000 0    50   ~ 0
+SPI_MOSI
+Text Label 1200 5150 0    50   ~ 0
+SPI_SCK
+Text Label 1200 5300 0    50   ~ 0
+DIP_SSEL
+Text HLabel 3250 6650 0    50   3State ~ 0
+I2C_SDA
+Text HLabel 3250 6500 0    50   3State ~ 0
+I2C_SCL
+Wire Wire Line
+	3250 6500 3850 6500
+Text Label 3400 6650 0    50   ~ 0
+I2C_SDA
+Text Label 3400 6500 0    50   ~ 0
+I2C_SCL
+Text HLabel 1300 6200 0    50   Output ~ 0
+UART_RXD
+Text HLabel 1300 6400 0    50   Input ~ 0
+UART_TXD
+Text HLabel 1300 6600 0    50   Output ~ 0
+UART_RTS
+$Comp
+L Connector:Conn_01x06_Male J3
+U 1 1 5CF5FB26
+P 2000 6100
+F 0 "J3" H 1973 6073 50  0000 R CNN
+F 1 "Conn_01x06_Male" H 1973 5982 50  0000 R CNN
+F 2 "" H 2000 6100 50  0001 C CNN
+F 3 "~" H 2000 6100 50  0001 C CNN
+	1    2000 6100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 5CF5FD36
+P 1550 6200
+F 0 "R19" V 1450 6050 50  0000 C CNN
+F 1 "330R" V 1650 6200 50  0000 C CNN
+F 2 "" V 1480 6200 50  0001 C CNN
+F 3 "~" H 1550 6200 50  0001 C CNN
+	1    1550 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 5CF600D3
+P 1550 6400
+F 0 "R20" V 1450 6250 50  0000 C CNN
+F 1 "330R" V 1650 6400 50  0000 C CNN
+F 2 "" V 1480 6400 50  0001 C CNN
+F 3 "~" H 1550 6400 50  0001 C CNN
+	1    1550 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 5CF6010B
+P 1550 6600
+F 0 "R21" V 1500 6450 50  0000 C CNN
+F 1 "330R" V 1650 6600 50  0000 C CNN
+F 2 "" V 1480 6600 50  0001 C CNN
+F 3 "~" H 1550 6600 50  0001 C CNN
+	1    1550 6600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1300 6200 1400 6200
+Wire Wire Line
+	1300 6400 1400 6400
+Wire Wire Line
+	1300 6600 1400 6600
+Wire Wire Line
+	1700 6600 1800 6600
+Wire Wire Line
+	1800 6600 1800 6400
+Wire Wire Line
+	1700 6400 1700 6300
+Wire Wire Line
+	1700 6300 1800 6300
+Wire Wire Line
+	1700 6200 1800 6200
+$Comp
+L power:GND #PWR030
+U 1 1 5CF615C7
+P 1100 5900
+F 0 "#PWR030" H 1100 5650 50  0001 C CNN
+F 1 "GND" H 1105 5727 50  0000 C CNN
+F 2 "" H 1100 5900 50  0001 C CNN
+F 3 "" H 1100 5900 50  0001 C CNN
+	1    1100 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 5900 1800 5900
+Wire Wire Line
+	3250 6650 4150 6650
+Wire Wire Line
+	3850 6500 3850 6550
+Wire Wire Line
+	3850 6550 4150 6550
+Wire Wire Line
+	8150 750  7500 750 
+Text Label 7600 850  0    50   ~ 0
+VCC_5V
+Text Label 7600 750  0    50   ~ 0
+VCCD_3V3
+$Comp
+L Device:D_Zener D8
+U 1 1 5CF659B9
+P 5100 4750
+F 0 "D8" H 5100 4534 50  0000 C CNN
+F 1 "ES1D" H 5100 4625 50  0000 C CNN
+F 2 "" H 5100 4750 50  0001 C CNN
+F 3 "~" H 5100 4750 50  0001 C CNN
+	1    5100 4750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1800 6100 650  6100
+Wire Wire Line
+	650  6100 650  6000
+$Comp
+L Device:D_Zener D4
+U 1 1 5CF66746
+P 650 5850
+F 0 "D4" V 604 5929 50  0000 L CNN
+F 1 "ES1D" V 695 5929 50  0000 L CNN
+F 2 "" H 650 5850 50  0001 C CNN
+F 3 "~" H 650 5850 50  0001 C CNN
+	1    650  5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	650  5700 1000 5700
+Text Label 700  5700 0    50   ~ 0
+VCC_5V
+Wire Wire Line
+	4700 4750 4950 4750
+Text Label 5350 4750 0    50   ~ 0
+VCC_5V
+Wire Wire Line
+	4300 5350 4400 5350
+Wire Wire Line
+	4400 5350 4400 5400
+Connection ~ 4400 5350
+$Comp
+L power:GND #PWR038
+U 1 1 5CF6A489
+P 4400 5400
+F 0 "#PWR038" H 4400 5150 50  0001 C CNN
+F 1 "GND" H 4405 5227 50  0000 C CNN
+F 2 "" H 4400 5400 50  0001 C CNN
+F 3 "" H 4400 5400 50  0001 C CNN
+	1    4400 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R25
+U 1 1 5CF6BE1B
+P 5700 900
+F 0 "R25" V 5600 750 50  0000 C CNN
+F 1 "300k" V 5800 900 50  0000 C CNN
+F 2 "" V 5630 900 50  0001 C CNN
+F 3 "~" H 5700 900 50  0001 C CNN
+	1    5700 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R26
+U 1 1 5CF6C05E
+P 5900 900
+F 0 "R26" V 5800 750 50  0000 C CNN
+F 1 "300k" V 6000 900 50  0000 C CNN
+F 2 "" V 5830 900 50  0001 C CNN
+F 3 "~" H 5900 900 50  0001 C CNN
+	1    5900 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R27
+U 1 1 5CF6C098
+P 6100 900
+F 0 "R27" V 6000 750 50  0000 C CNN
+F 1 "300k" V 6200 900 50  0000 C CNN
+F 2 "" V 6030 900 50  0001 C CNN
+F 3 "~" H 6100 900 50  0001 C CNN
+	1    6100 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R28
+U 1 1 5CF6C0D0
+P 6300 900
+F 0 "R28" V 6200 750 50  0000 C CNN
+F 1 "300k" V 6400 900 50  0000 C CNN
+F 2 "" V 6230 900 50  0001 C CNN
+F 3 "~" H 6300 900 50  0001 C CNN
+	1    6300 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R29
+U 1 1 5CF6C10E
+P 6500 900
+F 0 "R29" V 6400 750 50  0000 C CNN
+F 1 "300k" V 6600 900 50  0000 C CNN
+F 2 "" V 6430 900 50  0001 C CNN
+F 3 "~" H 6500 900 50  0001 C CNN
+	1    6500 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R30
+U 1 1 5CF6C14A
+P 6700 900
+F 0 "R30" V 6600 750 50  0000 C CNN
+F 1 "300k" V 6800 900 50  0000 C CNN
+F 2 "" V 6630 900 50  0001 C CNN
+F 3 "~" H 6700 900 50  0001 C CNN
+	1    6700 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R31
+U 1 1 5CF6C188
+P 6900 900
+F 0 "R31" V 6800 750 50  0000 C CNN
+F 1 "300k" V 7000 900 50  0000 C CNN
+F 2 "" V 6830 900 50  0001 C CNN
+F 3 "~" H 6900 900 50  0001 C CNN
+	1    6900 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R32
+U 1 1 5CF6C1CA
+P 7100 900
+F 0 "R32" V 7000 750 50  0000 C CNN
+F 1 "300k" V 7200 900 50  0000 C CNN
+F 2 "" V 7030 900 50  0001 C CNN
+F 3 "~" H 7100 900 50  0001 C CNN
+	1    7100 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 1050 5700 1150
+Wire Wire Line
+	5700 1150 5300 1150
+Wire Wire Line
+	5300 1250 5900 1250
+Wire Wire Line
+	5900 1250 5900 1050
+Wire Wire Line
+	5300 1350 6100 1350
+Wire Wire Line
+	6100 1350 6100 1050
+Wire Wire Line
+	6300 1050 6300 1450
+Wire Wire Line
+	6300 1450 5300 1450
+Wire Wire Line
+	5300 1550 6500 1550
+Wire Wire Line
+	6500 1550 6500 1050
+Wire Wire Line
+	6700 1050 6700 1650
+Wire Wire Line
+	6700 1650 5300 1650
+Wire Wire Line
+	6900 1050 6900 1750
+Wire Wire Line
+	6900 1750 5300 1750
+Wire Wire Line
+	7100 1050 7100 1850
+Wire Wire Line
+	7100 1850 5300 1850
+Wire Wire Line
+	5700 750  5900 750 
+Connection ~ 5900 750 
+Wire Wire Line
+	5900 750  6100 750 
+Connection ~ 6100 750 
+Wire Wire Line
+	6100 750  6300 750 
+Connection ~ 6300 750 
+Wire Wire Line
+	6300 750  6500 750 
+Connection ~ 6500 750 
+Wire Wire Line
+	6500 750  6700 750 
+Connection ~ 6700 750 
+Wire Wire Line
+	6700 750  6900 750 
+Connection ~ 6900 750 
+Wire Wire Line
+	6900 750  7100 750 
+Wire Wire Line
+	5700 750  5300 750 
+Connection ~ 5700 750 
+Text Label 5300 750  0    50   ~ 0
+VCCD_3V3
+Text Label 5350 1150 0    50   ~ 0
+DIP_1
+Text Label 5350 1250 0    50   ~ 0
+DIP_2
+Text Label 5350 1350 0    50   ~ 0
+DIP_3
+Text Label 5350 1450 0    50   ~ 0
+DIP_4
+Text Label 5350 1550 0    50   ~ 0
+DIP_5
+Text Label 5350 1650 0    50   ~ 0
+DIP_6
+Text Label 5350 1750 0    50   ~ 0
+DIP_7
+Text Label 5350 1850 0    50   ~ 0
+DIP_8
+Wire Wire Line
+	5750 3750 5500 3750
+Text Label 5350 3750 0    50   ~ 0
+VCCD_3V3
+$Comp
+L Device:C C40
+U 1 1 5CF77677
+P 5500 3900
+F 0 "C40" H 5615 3946 50  0000 L CNN
+F 1 "100n" H 5615 3855 50  0000 L CNN
+F 2 "" H 5538 3750 50  0001 C CNN
+F 3 "~" H 5500 3900 50  0001 C CNN
+	1    5500 3900
+	1    0    0    -1  
+$EndComp
+Connection ~ 5500 3750
+Wire Wire Line
+	5500 3750 5300 3750
+$Comp
+L power:GND #PWR040
+U 1 1 5CF776F7
+P 5500 4050
+F 0 "#PWR040" H 5500 3800 50  0001 C CNN
+F 1 "GND" H 5505 3877 50  0000 C CNN
+F 2 "" H 5500 4050 50  0001 C CNN
+F 3 "" H 5500 4050 50  0001 C CNN
+	1    5500 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR041
+U 1 1 5CF77784
+P 6650 4050
+F 0 "#PWR041" H 6650 3800 50  0001 C CNN
+F 1 "GND" H 6655 3877 50  0000 C CNN
+F 2 "" H 6650 4050 50  0001 C CNN
+F 3 "" H 6650 4050 50  0001 C CNN
+	1    6650 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 3750 6650 3750
+Wire Wire Line
+	6650 3750 6650 4050
+Wire Wire Line
+	5750 2250 5300 2250
+Wire Wire Line
+	5750 2350 5200 2350
+Wire Wire Line
+	5750 2450 5300 2450
+Wire Wire Line
+	5750 2550 5200 2550
+Wire Wire Line
+	5200 2550 5200 2350
+Connection ~ 5200 2350
+Wire Wire Line
+	5200 2350 4950 2350
+Wire Wire Line
+	5750 2650 4300 2650
+Wire Wire Line
+	4300 2650 4300 2750
+$Comp
+L power:GND #PWR037
+U 1 1 5CF82449
+P 4300 2750
+F 0 "#PWR037" H 4300 2500 50  0001 C CNN
+F 1 "GND" H 4305 2577 50  0000 C CNN
+F 2 "" H 4300 2750 50  0001 C CNN
+F 3 "" H 4300 2750 50  0001 C CNN
+	1    4300 2750
+	1    0    0    -1  
+$EndComp
+Text Label 5350 2250 0    50   ~ 0
+SPI_MOSI
+Text Label 4950 2350 0    50   ~ 0
+DIP_SSEL
+Text Label 5350 2450 0    50   ~ 0
+SPI_SCK
+Wire Wire Line
+	6550 3050 6950 3050
+Text Label 6600 3050 0    50   ~ 0
+SPI_MISO
+Wire Wire Line
+	4150 6450 3950 6450
+Wire Wire Line
+	3950 6450 3950 6300
+Wire Wire Line
+	3950 6300 3200 6300
+Wire Wire Line
+	4150 6350 4150 6050
+Wire Wire Line
+	4150 6050 3200 6050
+Text Label 3350 6300 0    50   ~ 0
+VCC_5V
+$Comp
+L power:GND #PWR035
+U 1 1 5CF89980
+P 3200 6050
+F 0 "#PWR035" H 3200 5800 50  0001 C CNN
+F 1 "GND" H 3205 5877 50  0000 C CNN
+F 2 "" H 3200 6050 50  0001 C CNN
+F 3 "" H 3200 6050 50  0001 C CNN
+	1    3200 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 5CF90371
+P 1400 2750
+F 0 "R18" V 1300 2600 50  0000 C CNN
+F 1 "300k" V 1500 2750 50  0000 C CNN
+F 2 "" V 1330 2750 50  0001 C CNN
+F 3 "~" H 1400 2750 50  0001 C CNN
+	1    1400 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C37
+U 1 1 5CF90707
+P 1400 3150
+F 0 "C37" H 1515 3196 50  0000 L CNN
+F 1 "100n" H 1515 3105 50  0000 L CNN
+F 2 "" H 1438 3000 50  0001 C CNN
+F 3 "~" H 1400 3150 50  0001 C CNN
+	1    1400 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 2900 1400 3000
+Wire Wire Line
+	1550 3000 1400 3000
+Connection ~ 1400 3000
+$Comp
+L power:GND #PWR031
+U 1 1 5CF94B36
+P 1400 3300
+F 0 "#PWR031" H 1400 3050 50  0001 C CNN
+F 1 "GND" H 1405 3127 50  0000 C CNN
+F 2 "" H 1400 3300 50  0001 C CNN
+F 3 "" H 1400 3300 50  0001 C CNN
+	1    1400 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 3000 1950 3300
+Wire Wire Line
+	1950 3300 1400 3300
+Connection ~ 1400 3300
+Wire Wire Line
+	1400 2600 1850 2600
+Text Label 1500 2600 0    50   ~ 0
+VCCD_3V3
+Wire Wire Line
+	1400 3000 1050 3000
+Text HLabel 1050 3000 0    50   Output ~ 0
+BUT_RESET
+Wire Notes Line
+	550  5600 550  6800
+Wire Notes Line
+	550  6800 2700 6800
+Wire Notes Line
+	2700 6800 2700 5600
+Wire Notes Line
+	2700 5600 550  5600
+Text Notes 1800 6800 0    50   ~ 0
+FTDI cable connector
+Wire Notes Line
+	2750 5950 2750 6800
+Wire Notes Line
+	2750 6800 5100 6800
+Wire Notes Line
+	5100 6800 5100 5950
+Wire Notes Line
+	5100 5950 2750 5950
+Text Notes 3850 6800 0    50   ~ 0
+Connector for I2C OLED display
+Wire Wire Line
+	1500 4000 1500 4400
+Wire Wire Line
+	1500 4400 1800 4400
+Wire Wire Line
+	1800 4400 1800 4450
+Connection ~ 1500 4400
+$Comp
+L power:GND #PWR032
+U 1 1 5CFA6FB7
+P 1800 4450
+F 0 "#PWR032" H 1800 4200 50  0001 C CNN
+F 1 "GND" H 1805 4277 50  0000 C CNN
+F 2 "" H 1800 4450 50  0001 C CNN
+F 3 "" H 1800 4450 50  0001 C CNN
+	1    1800 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 4000 900  4000
+Wire Wire Line
+	1100 4400 900  4400
+Text HLabel 900  4000 0    50   Output ~ 0
+BUT_0
+Text HLabel 900  4400 0    50   Output ~ 0
+BUT_1
+$Comp
+L Device:R R22
+U 1 1 5CFC1C0B
+P 1700 1000
+F 0 "R22" V 1600 1000 50  0000 C CNN
+F 1 "1k" V 1800 1000 50  0000 C CNN
+F 2 "" V 1630 1000 50  0001 C CNN
+F 3 "~" H 1700 1000 50  0001 C CNN
+	1    1700 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 5CFC1E46
+P 2250 1000
+F 0 "R23" V 2150 1000 50  0000 C CNN
+F 1 "1k" V 2350 1000 50  0000 C CNN
+F 2 "" V 2180 1000 50  0001 C CNN
+F 3 "~" H 2250 1000 50  0001 C CNN
+	1    2250 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1450 1700 1450
+Wire Wire Line
+	2250 1450 2250 1950
+Wire Wire Line
+	2250 1950 1600 1950
+Wire Wire Line
+	1700 850  2250 850 
+Text Label 1850 850  0    50   ~ 0
+VCC_5V
+$Comp
+L Device:C C38
+U 1 1 5CFCBDE2
+P 2900 1000
+F 0 "C38" H 3015 1046 50  0000 L CNN
+F 1 "100n" H 3015 955 50  0000 L CNN
+F 2 "" H 2938 850 50  0001 C CNN
+F 3 "~" H 2900 1000 50  0001 C CNN
+	1    2900 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 850  2900 850 
+Connection ~ 2250 850 
+$Comp
+L power:GND #PWR034
+U 1 1 5CFCF6B9
+P 2900 1150
+F 0 "#PWR034" H 2900 900 50  0001 C CNN
+F 1 "GND" H 2905 977 50  0000 C CNN
+F 2 "" H 2900 1150 50  0001 C CNN
+F 3 "" H 2900 1150 50  0001 C CNN
+	1    2900 1150
+	1    0    0    -1  
+$EndComp
+Text HLabel 950  1450 0    50   Input ~ 0
+LED_0
+Text HLabel 950  1950 0    50   Input ~ 0
+LED_1
+Wire Wire Line
+	950  1450 1050 1450
+Wire Wire Line
+	950  1950 1050 1950
+Wire Notes Line
+	550  2500 550  3550
+Wire Notes Line
+	550  3550 2000 3550
+Wire Notes Line
+	2000 3550 2000 2500
+Wire Notes Line
+	2000 2500 550  2500
+Text Notes 550  3550 0    50   ~ 0
+Reset pushbutton
+Wire Notes Line
+	550  3600 550  4700
+Wire Notes Line
+	2300 4700 2300 3600
+Text Notes 550  3700 0    50   ~ 0
+Application pushbutton (or bootloader start)
+Wire Notes Line
+	550  4700 2300 4700
+Wire Notes Line
+	550  3600 2300 3600
+Wire Notes Line
+	4050 4300 7300 4300
+Wire Notes Line
+	7300 4300 7300 550 
+Wire Notes Line
+	7300 550  4050 550 
+Wire Notes Line
+	4050 550  4050 4300
+Text Notes 4100 650  0    50   ~ 0
+Fieldbus address DIP switch with shift-register input
+Wire Notes Line
+	550  2450 3200 2450
+Wire Notes Line
+	3200 550  550  550 
+Text Notes 600  650  0    50   ~ 0
+Application LEDs
+Text Notes 4400 1450 0    50   ~ 0
+Pull-up resistors
+Wire Notes Line
+	550  4750 550  5500
+Wire Notes Line
+	550  5500 1800 5500
+Wire Notes Line
+	1800 5500 1800 4750
+Wire Notes Line
+	1800 4750 550  4750
+Text Notes 600  5500 0    50   ~ 0
+SPI signal lines
+Wire Wire Line
+	7500 850  8150 850 
+$Comp
+L slfid:74LVC2G07 U5
+U 1 1 5D00F26A
+P 1300 1450
+F 0 "U5" H 1325 1717 50  0000 C CNN
+F 1 "74LVC2G07" H 1325 1626 50  0000 C CNN
+F 2 "" H 1300 1450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc2g07.pdf" H 1300 1450 50  0001 C CNN
+	1    1300 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L slfid:74LVC2G07 U5
+U 2 1 5D00F33D
+P 1300 1950
+F 0 "U5" H 1325 2217 50  0000 C CNN
+F 1 "74LVC2G07" H 1325 2126 50  0000 C CNN
+F 2 "" H 1300 1950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc2g07.pdf" H 1300 1950 50  0001 C CNN
+	2    1300 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L slfid:74LVC2G07 U5
+U 3 1 5D00F476
+P 2550 2000
+F 0 "U5" H 2628 2121 50  0000 L CNN
+F 1 "74LVC2G07" H 2628 2030 50  0000 L CNN
+F 2 "" H 2550 2000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc2g07.pdf" H 2550 2000 50  0001 C CNN
+	3    2550 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR033
+U 1 1 5D01A3B1
+P 2550 2250
+F 0 "#PWR033" H 2550 2000 50  0001 C CNN
+F 1 "GND" H 2555 2077 50  0000 C CNN
+F 2 "" H 2550 2250 50  0001 C CNN
+F 3 "" H 2550 2250 50  0001 C CNN
+	1    2550 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 1600 2950 1600
+Text Label 2600 1600 0    50   ~ 0
+VCC_5V
+Wire Notes Line
+	3200 550  3200 2450
+Wire Notes Line
+	550  550  550  2450
+$Comp
+L Device:Buzzer BZ1
+U 1 1 5D0291AD
+P 3500 3050
+F 0 "BZ1" H 3653 3079 50  0000 L CNN
+F 1 "Transducer" H 3653 2988 50  0000 L CNN
+F 2 "" V 3475 3150 50  0001 C CNN
+F 3 "~" V 3475 3150 50  0001 C CNN
+	1    3500 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2950 3100 2950
+Text Label 3000 2950 0    50   ~ 0
+VCC_5V
+$Comp
+L Transistor_FET:BSS138 Q2
+U 1 1 5D02D596
+P 3300 4050
+F 0 "Q2" H 3505 4096 50  0000 L CNN
+F 1 "BSS138" H 3505 4005 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3500 3975 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 3300 4050 50  0001 L CNN
+	1    3300 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Zener D7
+U 1 1 5D02D97E
+P 3100 3100
+F 0 "D7" V 3054 3179 50  0000 L CNN
+F 1 "ES1D" V 3145 3179 50  0000 L CNN
+F 2 "" H 3100 3100 50  0001 C CNN
+F 3 "~" H 3100 3100 50  0001 C CNN
+	1    3100 3100
+	0    1    1    0   
+$EndComp
+Connection ~ 3100 2950
+Wire Wire Line
+	3100 2950 2950 2950
+Wire Wire Line
+	3100 3250 3100 3550
+Wire Wire Line
+	3100 3550 3400 3550
+Wire Wire Line
+	3400 3150 3400 3550
+$Comp
+L power:GND #PWR036
+U 1 1 5D039F5A
+P 3400 4400
+F 0 "#PWR036" H 3400 4150 50  0001 C CNN
+F 1 "GND" H 3405 4227 50  0000 C CNN
+F 2 "" H 3400 4400 50  0001 C CNN
+F 3 "" H 3400 4400 50  0001 C CNN
+	1    3400 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 5D03A59F
+P 3100 4200
+F 0 "R24" V 3000 4200 50  0000 C CNN
+F 1 "1k" V 3200 4200 50  0000 C CNN
+F 2 "" V 3030 4200 50  0001 C CNN
+F 3 "~" H 3100 4200 50  0001 C CNN
+	1    3100 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 4350 3400 4350
+Wire Wire Line
+	3400 4350 3400 4400
+Wire Wire Line
+	3400 4250 3400 4350
+Connection ~ 3400 4350
+$Comp
+L Device:C C39
+U 1 1 5D04C3FE
+P 3400 3700
+F 0 "C39" H 3515 3746 50  0000 L CNN
+F 1 "1uF" H 3515 3655 50  0000 L CNN
+F 2 "" H 3438 3550 50  0001 C CNN
+F 3 "~" H 3400 3700 50  0001 C CNN
+	1    3400 3700
+	1    0    0    -1  
+$EndComp
+Connection ~ 3400 3550
+Wire Wire Line
+	3100 4050 2900 4050
+Connection ~ 3100 4050
+Text HLabel 2900 4050 0    50   Input ~ 0
+BUZZER
+Wire Notes Line
+	2450 4700 3900 4700
+Wire Notes Line
+	3900 2850 2450 2850
+Text Notes 2500 4700 0    50   ~ 0
+Transducer and driver MOSFET
+Wire Notes Line
+	2450 2850 2450 4700
+Wire Notes Line
+	3900 2850 3900 4700
+$Comp
+L Power_Protection:PRTR5V0U2X D9
+U 1 1 5D0637D8
+P 6700 5050
+F 0 "D9" H 6400 5400 50  0000 L CNN
+F 1 "PRTR5V0U2X" H 6850 4700 50  0000 L CNN
+F 2 "" H 6760 5050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" H 6760 5050 50  0001 C CNN
+	1    6700 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 4750 5750 4750
+$Comp
+L power:GND #PWR042
+U 1 1 5D0706D4
+P 6700 5550
+F 0 "#PWR042" H 6700 5300 50  0001 C CNN
+F 1 "GND" H 6705 5377 50  0000 C CNN
+F 2 "" H 6700 5550 50  0001 C CNN
+F 3 "" H 6700 5550 50  0001 C CNN
+	1    6700 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 4950 5200 4950
+Wire Wire Line
+	4700 5050 5200 5050
+Wire Wire Line
+	4700 5150 5200 5150
+Text Label 4850 4950 0    50   ~ 0
+USB_DP
+Text Label 4850 5050 0    50   ~ 0
+USB_DM
+Text Label 4850 5150 0    50   ~ 0
+USB_ID
+Wire Wire Line
+	6200 5050 5900 5050
+Wire Wire Line
+	7200 5050 7650 5050
+Text Label 5900 5050 0    50   ~ 0
+USB_DP
+Text Label 7300 5050 0    50   ~ 0
+USB_DM
+Text HLabel 5200 4950 2    50   BiDi ~ 0
+USB_DP
+Text HLabel 5200 5050 2    50   BiDi ~ 0
+USB_DM
+Text HLabel 5200 5150 2    50   BiDi ~ 0
+USB_ID
+Text Label 6800 4550 0    50   ~ 0
+VCC_5V
+$Comp
+L Device:C C41
+U 1 1 5D0B4B5D
+P 7900 4700
+F 0 "C41" H 8015 4746 50  0000 L CNN
+F 1 "100n" H 8015 4655 50  0000 L CNN
+F 2 "" H 7938 4550 50  0001 C CNN
+F 3 "~" H 7900 4700 50  0001 C CNN
+	1    7900 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 4550 7900 4550
+$Comp
+L power:GND #PWR043
+U 1 1 5D0B9830
+P 7900 4850
+F 0 "#PWR043" H 7900 4600 50  0001 C CNN
+F 1 "GND" H 7905 4677 50  0000 C CNN
+F 2 "" H 7900 4850 50  0001 C CNN
+F 3 "" H 7900 4850 50  0001 C CNN
+	1    7900 4850
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4050 4400 4050 5850
+Wire Notes Line
+	4050 5850 8250 5850
+Wire Notes Line
+	8250 5850 8250 4400
+Wire Notes Line
+	8250 4400 4050 4400
+Text Notes 7100 5800 0    50   ~ 0
+Micro USB device connector
+Wire Notes Line
+	7400 950  8650 950 
+Wire Notes Line
+	8650 950  8650 550 
+Wire Notes Line
+	8650 550  7400 550 
+Wire Notes Line
+	7400 550  7400 950 
+Text Notes 8100 650  0    50   ~ 0
+Power supply
+$EndSCHEMATC

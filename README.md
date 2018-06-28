@@ -17,7 +17,7 @@ The high-gain receiver stage of the device was formerly used to communicate with
 The fieldbus interface is implemented with the VPC3+S chip, that provides full Profibus-DP slave functionality and easy integration in industrial environment.
 Modbus support is also possible, but it is not yet implemented in the firmware.
 
-Please note that so far the firmware is not yet complete, I will publish it as soon as I have the time. It is written in C and assembly for the Texas Intruments TMS320F28062 microcontroller, using some libraries provided by the manufacturer. I am using Code Composer Studio 6 that is can be downloaded and used for free from the website of Texas Instruments.
+Please note that so far the firmware is not yet complete, I will publish it as soon as I have the time. It is written in C and assembly for the Texas Intruments TMS320F28062 microcontroller, using some libraries provided by the manufacturer. I am using Code Composer Studio 6 that can be downloaded and used for free from the website of Texas Instruments.
 
 
 
